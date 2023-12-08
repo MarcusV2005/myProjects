@@ -1,0 +1,49 @@
+body{
+background:linear-gradient(darkblue,cyan);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.central{
+
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+        
+}
+
+.central p{
+    font-size: 20px;
+    color: darkred;
+    font-family: Cambria;
+    font-weight: bold;
+}
+
+.central input{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: gray;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.central button{
+ padding: 10px 40px;
+ background: gray;
+ color: white;
+ font-family: cambria;
+ border-radius: 10px;
+ border: none;
+ outline: none;
+margin: 20px;
+cursor: pointer;
+}
