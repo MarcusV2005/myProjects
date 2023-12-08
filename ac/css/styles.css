@@ -1,0 +1,49 @@
+body{
+    background: url(/images/Assassins-Creed-Origins.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+
+
+}
+
+
+.central{
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.247);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+video{
+
+    width: 500px;
+}
+
+button {
+
+    outline: none;
+    border: none;
+    margin: 8px;
+    background: yellow;
+    color: black;
+    cursor: pointer;
+    padding: 7px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+
+
+    
+
+}
+
+.botoes button:active{
+
+background: red;
+color: white;
+
+
+}
+
