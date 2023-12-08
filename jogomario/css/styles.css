@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.central{
+
+width: 100%;
+height: 500px ;
+border-bottom: 15px solid green ;
+margin: 0 auto ;
+position: relative;
+overflow: hidden;
+background: url('https://acdn.mitiendanube.com/stores/002/767/708/products/34-super-mario-bros-background-wqhd-1440p-wallpaper_cartoon_x41-d38017087c34dc162316843341071700-640-0.jpg');
+background-size: cover;
+height: 100vh;
+}
+
+
+.clouds{
+
+    position: absolute;
+    width: 550px;
+    animation: clouds-animation 20s infinite linear;
+}
+.pipe{
+    position: absolute;
+     bottom: 0;
+     width: 80px;
+     animation:pipo-animation 1.5s infinite linear;
+    
+}
+
+.inimigo{
+    position: absolute;
+    width: 300px;
+    right: 20px;
+    bottom:0;
+}
+.mario{
+    width:150px;
+    position: absolute;
+    bottom: 0;
+    
+    
+}
+
+.jump{
+    animation:jump 500ms ease-out;
+}
+
+@keyframes pipo-animation {
+    from{
+      right:0;  
+    }
+    
+    to{
+        right: 100%;
+    }
+}
+
+
+@keyframes jump {
+    0%{
+
+        bottom: 0;
+    
+}
+
+40%{
+    bottom: 180px;
+}
+
+50%{
+    bottom: 180px;
+}
+
+60%{
+    bottom: 180px;
+}
+
+100%{
+
+    bottom:0;
+}
+
+}
+
+
+@keyframes clouds-animation{
+ from{
+     right: -550px;
+ }   
+
+to{
+    right: 100%;
+}
+
+
+}
