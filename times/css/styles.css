@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(green,white);
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 ;
+    background-size: cover;
+    
+}
+
+.central{
+
+    border: black solid;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    box-shadow: 10px 10px 15px;
+    background: white;
+    background-size: cover;
+}
+
+.foto{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#ft1{
+    width: 250px;
+    height: 250px;
+    border: solid black;
+}
+
+
+.central img{
+
+    height: 70px;
+    margin: 15px;
+    padding: 15px;
+    background-size: cover;
+}
+button{
+   cursor: pointer;
+   margin: 10px;
+   border-radius: 25px;
+   width: 200px;
+   
+
+
+}
+
+
+.butoes{
+    transition: 1s;
+    background-size: cover;
+    
+    
+}
+
+.butoes button:active{
+
+background-color:black;
+}
+
+
+.barça{
+
+    background:linear-gradient(darkred,darkblue);
+}
+
+.hilal{
+    background:linear-gradient(darkblue,white) ;
+}
+
+.inter{
+
+    background: linear-gradient(pink,black);
+}
+
+.madrid{
+
+    background: linear-gradient(gold,white);
+}
